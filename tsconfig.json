@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@cy/fixtures/*": ["fixtures/*"],
+        "@cy/helpers": ["helpers"],
+        "@cy/models": ["models"]
+      },
+      "target": "es5",
+      "module": "commonjs",
+      "lib": ["es5", "dom"],
+      "strict": true,
+      "types": ["cypress", "node"],
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true
+    },
+    "include": ["**/*.ts"],
+    "exclude": []
+  }
